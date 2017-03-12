@@ -60,7 +60,7 @@ destination: public
 
 assets:
   compress:
-    css: sass
+    css: false
     js: false
 
   autowrite: true
