@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zdharma Initiative</title>
+    <description>Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface library, Zconvey – Zsh session integration via file locks and sched.
+</description>
+    <link>http://zdharma.org/</link>
+    <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 12 Mar 2017 19:17:51 +0100</pubDate>
+    <lastBuildDate>Sun, 12 Mar 2017 19:17:51 +0100</lastBuildDate>
+    <generator>Jekyll v3.4.2</generator>
+    
+      <item>
+        <title>Overview of available projects</title>
+        <description>&lt;p&gt;BEGIN I’ve developed 14 Zsh projects. I see five of them to be at Zdharma
+mainstream, rest of the projects might get an uplift to fit into Zdharma goals
+(robust and well working Zsh software) in the future, mainly by use of ZUI
+curses interface library. One of the projects is a Zsh module, not a plugin:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zdharma/zui&quot;&gt;ZUI&lt;/a&gt; –
+CGI+(D)HTML-like RAD user interface library (curses)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zdharma/zconvey&quot;&gt;Zconvey&lt;/a&gt; –
+send commands to other Zsh processes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zdharma/history-search-multi-word&quot;&gt;history-search-multi-word&lt;/a&gt; –
+multi-term history searching for Zsh&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zdharma/zplugin&quot;&gt;Zplugin&lt;/a&gt; –
+plugin manager with clean fpath and reports&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zdharma/zgdbm&quot;&gt;zgdbm&lt;/a&gt; –
+rewritten GDBM module, posted to upstream, further developed at Zdharma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remaining good, but not yet revisited and uplifted plugins:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zsh-navigation-tools&quot;&gt;Zsh Navigation Tools&lt;/a&gt; –
+curses-based tools, e.g. multi-word history searcher&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zsh-editing-workbench&quot;&gt;Zsh Editing Workbench&lt;/a&gt; –
+sane, sophisticated command line editing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zsh-morpho&quot;&gt;zsh-morpho&lt;/a&gt; –
+terminal screen savers written in pure Zsh&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zsh-cmd-architect&quot;&gt;Zsh Command Architect&lt;/a&gt; –
+build commands from what’s in history and at prompt&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/ztrace&quot;&gt;Ztrace&lt;/a&gt; –
+record output of commands, reuse it via curses interface&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zsnapshot&quot;&gt;Zsnapshot&lt;/a&gt; –
+zsh session restoration&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zsh-select&quot;&gt;zsh-select&lt;/a&gt; –
+selection list written in pure Zsh&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zprompts&quot;&gt;zprompts&lt;/a&gt; –
+independent themes for Zsh&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/psprint/zzcomplete&quot;&gt;zzcomplete&lt;/a&gt; –
+a completion mechanism that uses manual pages as source&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 12 Mar 2017 18:48:00 +0100</pubDate>
+        <link>http://zdharma.org/posts/Overview-of-available-projects</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/Overview-of-available-projects</guid>
+        
+        <category>projects</category>
+        
+        
+        <category>overview</category>
+        
+      </item>
+    
+      <item>
+        <title>Zdharma Initiative starting up</title>
+        <description>&lt;p&gt;BEGIN I’ve created zdharma.org and multiple Zsh projects because the Zsh language is enough powerfull
+to support sophisticated and large tasks. Main project is currently &lt;strong&gt;ZUI&lt;/strong&gt; – Zsh User Interface
+library, that allows to create applications with curses interface in a manner resembling CGI+(D)HTML.
+It recalls the old term “RAD” – rapid application development. Here is what is sufficient to create
+hello world application:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;demo_mod1_generator&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Content, no hyper-links&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World from &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ZUI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[YELLOW]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ZUI&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ZUI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[COLOR_END]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;! Module &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mod&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, instance &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ice&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Non-selectable lines   Hops to jump with [ and ]   Local anchors&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;reply2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;               &lt;span class=&quot;nv&quot;&gt;reply3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; 1 &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                &lt;span class=&quot;nv&quot;&gt;reply4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out full &lt;a href=&quot;https://github.com/zdharma/zui/blob/master/zui-demo-hello-world&quot;&gt;Hello World&lt;/a&gt; example code.&lt;/p&gt;
+
+&lt;p&gt;Other featured project is &lt;strong&gt;Zconvey&lt;/strong&gt;. It allows to send commands between Zsh sessions. Its main use
+case is to switch your workflow to new project with:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/github/project2
+zc-all &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out Zconvey’s &lt;a href=&quot;https://github.com/zdharma/zconvey&quot;&gt;home page&lt;/a&gt; and Asciinema video there.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 12 Mar 2017 11:29:00 +0100</pubDate>
+        <link>http://zdharma.org/posts/Zdharma-Initiative-starting-up</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/Zdharma-Initiative-starting-up</guid>
+        
+        <category>zdharma</category>
+        
+        
+        <category>overview</category>
+        
+      </item>
+    
+      <item>
+        <title>Sample Post!</title>
+        <description>&lt;h2 id=&quot;im-a-post&quot;&gt;I’m a post!!!&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed mauris metus. Donec lobortis nisi et metus aliquam finibus in nec enim. Quisque semper nunc at enim fringilla lacinia. Quisque ac imperdiet tellus, a efficitur magna. Cras lectus quam, sagittis et tortor id, imperdiet sodales velit. Fusce malesuada id dolor et tincidunt. Maecenas rhoncus, felis in iaculis suscipit, velit lorem malesuada eros, vitae aliquam arcu tortor euismod arcu. Integer felis lorem, vehicula eget mauris et, blandit faucibus enim. Fusce faucibus metus vel sagittis sodales. Aliquam quis nunc tempor, varius velit non, placerat ante. Curabitur id nisi quis mauris gravida porta id eget sem. Maecenas ante dui, vulputate id tincidunt ac, iaculis id dolor. Maecenas mattis auctor massa. Nulla mi enim, rutrum nec pharetra non, scelerisque vitae quam. Pellentesque a placerat ligula.&lt;/p&gt;
+
+&lt;p&gt;Cras condimentum magna ornare, pretium ligula eget, malesuada ipsum. Sed at eleifend sapien. Integer lacinia, dui porttitor fringilla luctus, diam felis rhoncus massa, id viverra lorem purus non dolor. Proin in dui lacus. Aenean fringilla auctor turpis ut imperdiet. Phasellus commodo, urna sed malesuada condimentum, tellus dui semper tellus, sit amet vestibulum erat velit eget elit. In euismod orci ante, ac tincidunt ante venenatis eu. Aenean convallis diam nisl, sed hendrerit libero feugiat suscipit. Pellentesque nulla ex, gravida at nisi at, viverra bibendum erat. Nullam nec ultricies purus, sed varius turpis. Ut elit justo, auctor id purus eu, venenatis elementum nulla. Suspendisse odio magna, molestie quis nunc et, posuere aliquam ante. Proin sed ultrices justo, nec ornare justo. Sed mollis nulla eu dolor aliquet euismod. In consequat lectus vitae arcu dignissim tincidunt.&lt;/p&gt;
+
+&lt;p&gt;Aliquam dictum convallis eros id cursus. Nullam porttitor congue urna eget efficitur. Curabitur cursus hendrerit sagittis. Pellentesque tristique facilisis purus eget ultrices. Donec aliquam mollis elit, id egestas quam porta eget. Vestibulum vel tincidunt velit. Vivamus mattis sapien diam, sit amet eleifend ex dapibus sed.&lt;/p&gt;
+
+&lt;p&gt;Nunc pharetra, tellus in luctus sodales, ex elit condimentum libero, sit amet interdum neque risus ac magna. Donec aliquam bibendum eleifend. Nam convallis arcu vestibulum, aliquet magna sit amet, feugiat sapien. Vivamus vitae nisl in nibh tempus euismod vel at sapien. Proin convallis ullamcorper mattis. Nullam dapibus, urna eget efficitur interdum, leo nulla accumsan augue, at porttitor justo odio id eros. Integer non metus ex. Pellentesque quis sapien quis libero fermentum vulputate. Duis maximus tempus orci quis auctor. Aenean eget vehicula risus. Etiam mattis iaculis lorem, eu facilisis mauris tincidunt eget. Proin porttitor nisi eu augue bibendum, sed tincidunt enim iaculis. Vestibulum vitae ullamcorper ex. Quisque dapibus pellentesque magna vitae tristique. Mauris vel ante ultrices nunc congue euismod. Suspendisse ultrices semper ultricies.&lt;/p&gt;
+
+&lt;p&gt;Sed vulputate non mauris vel condimentum. Integer facilisis fringilla accumsan. Donec aliquam eget leo maximus cursus. Integer interdum condimentum odio, id ornare nisl sodales ac. Quisque sed interdum diam. Integer semper hendrerit nunc, vel vestibulum est pellentesque congue. Quisque gravida, turpis eget blandit gravida, tellus tellus posuere nisl, vel vulputate lectus lectus sit amet felis.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed mauris metus. Donec lobortis nisi et metus aliquam finibus in nec enim. Quisque semper nunc at enim fringilla lacinia. Quisque ac imperdiet tellus, a efficitur magna. Cras lectus quam, sagittis et tortor id, imperdiet sodales velit. Fusce malesuada id dolor et tincidunt. Maecenas rhoncus, felis in iaculis suscipit, velit lorem malesuada eros, vitae aliquam arcu tortor euismod arcu. Integer felis lorem, vehicula eget mauris et, blandit faucibus enim. Fusce faucibus metus vel sagittis sodales. Aliquam quis nunc tempor, varius velit non, placerat ante. Curabitur id nisi quis mauris gravida porta id eget sem. Maecenas ante dui, vulputate id tincidunt ac, iaculis id dolor. Maecenas mattis auctor massa. Nulla mi enim, rutrum nec pharetra non, scelerisque vitae quam. Pellentesque a placerat ligula.&lt;/p&gt;
+
+&lt;p&gt;Cras condimentum magna ornare, pretium ligula eget, malesuada ipsum. Sed at eleifend sapien. Integer lacinia, dui porttitor fringilla luctus, diam felis rhoncus massa, id viverra lorem purus non dolor. Proin in dui lacus. Aenean fringilla auctor turpis ut imperdiet. Phasellus commodo, urna sed malesuada condimentum, tellus dui semper tellus, sit amet vestibulum erat velit eget elit. In euismod orci ante, ac tincidunt ante venenatis eu. Aenean convallis diam nisl, sed hendrerit libero feugiat suscipit. Pellentesque nulla ex, gravida at nisi at, viverra bibendum erat. Nullam nec ultricies purus, sed varius turpis. Ut elit justo, auctor id purus eu, venenatis elementum nulla. Suspendisse odio magna, molestie quis nunc et, posuere aliquam ante. Proin sed ultrices justo, nec ornare justo. Sed mollis nulla eu dolor aliquet euismod. In consequat lectus vitae arcu dignissim tincidunt.&lt;/p&gt;
+
+&lt;p&gt;Aliquam dictum convallis eros id cursus. Nullam porttitor congue urna eget efficitur. Curabitur cursus hendrerit sagittis. Pellentesque tristique facilisis purus eget ultrices. Donec aliquam mollis elit, id egestas quam porta eget. Vestibulum vel tincidunt velit. Vivamus mattis sapien diam, sit amet eleifend ex dapibus sed.&lt;/p&gt;
+
+&lt;p&gt;Nunc pharetra, tellus in luctus sodales, ex elit condimentum libero, sit amet interdum neque risus ac magna. Donec aliquam bibendum eleifend. Nam convallis arcu vestibulum, aliquet magna sit amet, feugiat sapien. Vivamus vitae nisl in nibh tempus euismod vel at sapien. Proin convallis ullamcorper mattis. Nullam dapibus, urna eget efficitur interdum, leo nulla accumsan augue, at porttitor justo odio id eros. Integer non metus ex. Pellentesque quis sapien quis libero fermentum vulputate. Duis maximus tempus orci quis auctor. Aenean eget vehicula risus. Etiam mattis iaculis lorem, eu facilisis mauris tincidunt eget. Proin porttitor nisi eu augue bibendum, sed tincidunt enim iaculis. Vestibulum vitae ullamcorper ex. Quisque dapibus pellentesque magna vitae tristique. Mauris vel ante ultrices nunc congue euismod. Suspendisse ultrices semper ultricies.&lt;/p&gt;
+
+&lt;p&gt;Sed vulputate non mauris vel condimentum. Integer facilisis fringilla accumsan. Donec aliquam eget leo maximus cursus. Integer interdum condimentum odio, id ornare nisl sodales ac. Quisque sed interdum diam. Integer semper hendrerit nunc, vel vestibulum est pellentesque congue. Quisque gravida, turpis eget blandit gravida, tellus tellus posuere nisl, vel vulputate lectus lectus sit amet felis.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 15:28:59 +0100</pubDate>
+        <link>http://zdharma.org/posts/sample-post</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/sample-post</guid>
+        
+        <category>sample</category>
+        
+        <category>new</category>
+        
+        <category>hello</category>
+        
+        
+        <category>coding</category>
+        
+        <category>Python</category>
+        
+      </item>
+    
+  </channel>
+</rss>
