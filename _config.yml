@@ -11,7 +11,7 @@ react:
   name: Sebastian Gniazdowski
   menu_right_subtitle: Computer Scientist
   avatar: /static/img/dharma_logo.png
-  logo: /static/img/logo_theme.jpg
+  logo: /static/img/logo_theme.png
   email: sgniazdowski@gmail.com
   description: > # this means to ignore newlines until "baseurl:"
     Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
