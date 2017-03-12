@@ -16,7 +16,7 @@ git reset --hard origin/master
 
 # Clean and get the html
 echo Removing..
-rm -rf *~*(LICENSE|node_modules)* .eslintrc .travis.yml .babelrc
+rm -rf *~*(LICENSE|node_modules|CNAME)* .eslintrc .travis.yml .babelrc
 mv ~/tmp/public/* .
 
 # Commit, push
