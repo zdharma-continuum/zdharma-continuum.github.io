@@ -4,11 +4,51 @@
     <title>Zdharma Initiative</title>
     <description>Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface library, Zconvey – Zsh session integration via file locks and sched.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Mar 2017 10:56:57 +0100</pubDate>
-    <lastBuildDate>Sun, 12 Mar 2017 10:56:57 +0100</lastBuildDate>
+    <link>http://zdharma.org/</link>
+    <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 12 Mar 2017 17:33:54 +0100</pubDate>
+    <lastBuildDate>Sun, 12 Mar 2017 17:33:54 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
+    
+      <item>
+        <title>Zdharma Initiative starting up</title>
+        <description>&lt;p&gt;BEGIN I’ve created zdharma.org and multiple Zsh projects because the Zsh language is enough powerfull
+to support sophisticated and large tasks. Main project is currently &lt;strong&gt;ZUI&lt;/strong&gt; – Zsh User Interface
+library, that allows to create applications with curses interface in a manner resembling CGI+(D)HTML.
+It recalls the old term “RAD” – rapid application development. Here is what is sufficient to create
+hello world application:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;demo_mod1_generator&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Content, no hyper-links&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World from &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ZUI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[YELLOW]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ZUI&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ZUI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[COLOR_END]&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;! Module &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mod&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, instance &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ice&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Non-selectable lines   Hops to jump with [ and ]   Local anchors&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;reply2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;               &lt;span class=&quot;nv&quot;&gt;reply3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; 1 &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                &lt;span class=&quot;nv&quot;&gt;reply4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out full &lt;a href=&quot;https://github.com/zdharma/zui/blob/master/zui-demo-hello-world&quot;&gt;Hello World&lt;/a&gt; example code.&lt;/p&gt;
+
+&lt;p&gt;Other featured project is &lt;strong&gt;Zconvey&lt;/strong&gt;. It allows to send commands between Zsh sessions. Its main use
+case is to switch your workflow to new project with:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/github/project2
+zc-all &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out Zconvey’s &lt;a href=&quot;https://github.com/zdharma/zconvey&quot;&gt;home page&lt;/a&gt; and Asciinema video there.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 12 Mar 2017 11:29:00 +0100</pubDate>
+        <link>http://zdharma.org/posts/Zdharma-Initiative-starting-up</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/Zdharma-Initiative-starting-up</guid>
+        
+        <category>zdharma</category>
+        
+        
+        <category>overview</category>
+        
+      </item>
     
       <item>
         <title>Material Design is Overtaking the Web</title>
@@ -34,8 +74,8 @@ int main() {
 &lt;p&gt;Nam id ullamcorper mi. Aenean interdum bibendum odio, non maximus lectus pretium a. Curabitur sed risus ipsum. Etiam condimentum elit in tellus venenatis, at lacinia tellus feugiat. Nulla facilisis condimentum consectetur. Pellentesque sed dictum lectus, et rhoncus odio. Aliquam ac nisi cursus, consectetur massa eleifend, vehicula nisi. Suspendisse in est auctor, scelerisque justo et, volutpat eros. Mauris egestas justo in nunc maximus rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae velit efficitur, volutpat leo et, laoreet risus. Nunc felis turpis, egestas non sodales non, euismod non diam.&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jan 2017 07:15:59 +0100</pubDate>
-        <link>http://localhost:4000/posts/Material-Design-is-Overtaking-the-Web!</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/Material-Design-is-Overtaking-the-Web!</guid>
+        <link>http://zdharma.org/posts/Material-Design-is-Overtaking-the-Web!</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/Material-Design-is-Overtaking-the-Web!</guid>
         
         <category>material</category>
         
@@ -88,8 +128,8 @@ int main() {
 &lt;p&gt;Sed vulputate non mauris vel condimentum. Integer facilisis fringilla accumsan. Donec aliquam eget leo maximus cursus. Integer interdum condimentum odio, id ornare nisl sodales ac. Quisque sed interdum diam. Integer semper hendrerit nunc, vel vestibulum est pellentesque congue. Quisque gravida, turpis eget blandit gravida, tellus tellus posuere nisl, vel vulputate lectus lectus sit amet felis.&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Jan 2017 15:28:59 +0100</pubDate>
-        <link>http://localhost:4000/posts/sample-post</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/sample-post</guid>
+        <link>http://zdharma.org/posts/sample-post</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/sample-post</guid>
         
         <category>sample</category>
         
@@ -101,44 +141,6 @@ int main() {
         <category>coding</category>
         
         <category>Python</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll! ( and React.js ;)</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 02 May 2016 16:28:59 +0200</pubDate>
-        <link>http://localhost:4000/posts/welcome-to-jekyll-(and-React.js-;)</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/welcome-to-jekyll-(and-React.js-;)</guid>
-        
-        <category>coding</category>
-        
-        <category>design</category>
-        
-        <category>welcome</category>
-        
-        <category>jekyll</category>
-        
-        <category>hello</category>
-        
-        
-        <category>coding</category>
-        
-        <category>design</category>
         
       </item>
     
