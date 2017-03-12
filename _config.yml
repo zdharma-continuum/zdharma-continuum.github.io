@@ -10,8 +10,8 @@ react:
   title: Zdharma Initiative
   name: Sebastian Gniazdowski
   menu_right_subtitle: Computer Scientist
-  avatar: static/img/dharma_logo.png
-  logo: static/img/logo_theme.jpg
+  avatar: /static/img/dharma_logo.png
+  logo: /static/img/logo_theme.jpg
   email: sgniazdowski@gmail.com
   description: > # this means to ignore newlines until "baseurl:"
     Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
@@ -31,8 +31,8 @@ react:
 title: Zdharma Initiative
 name: Sebastian Gniazdowski
 menu_right_subtitle: Computer Scientist
-avatar: static/img/dharma_logo.png
-logo: static/img/logo.png
+avatar: /static/img/dharma_logo.png
+logo: /static/img/logo.png
 email: sgniazdowski@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
