@@ -1,71 +1,42 @@
-- title: Awesome Project 0
-  subtitle: An Awesome Project that Does Something
-  homepage: http://www.github.com/InsidiousMind/
-  image: static/img/placeholder.jpg
-  date: Jan 2017
+- title: ZUI
+  subtitle: Zsh User Interface library
+  homepage: http://www.github.com/zdharma/zui
+  image: /static/img/dharma_logo.png
+  date: Mar 2017
   tags:
-  - cool
-  - dope
-  - nice
-  - project
-  - React
-  - Javascript
-  - Ruby
-  description: this is an awesome project that I worked
+  - ui
+  - zui
+  - library
+  - plugin
+  description: A RAD Zsh library (rapid application development) that is similar to CGI+(D)HTML technology. User generates basic text that is turned into document with hyperlinks (buttons, anchors, text fields, list boxes, toggle buttons). The document can reload its sections without full regeneration – that is the DHTML aspect.
 
-- title: Awesome Project 1
-  subtitle: Some project that does XX and other XX
-  homepage: http://www.github.com/InsidiousMind
-  image: static/img/placeholder.jpg
-  date: Jan 2017
+- title: Zconvey
+  subtitle: Zsh session integration
+  homepage: http://www.github.com/zdharma/zconvey
+  image: /static/img/dharma_logo.png
+  date: Oct 2016
   tags:
-  - cool
-  - dope
-  - nice
-  - project
-  - React
-  - Javascript
-  - Ruby
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec ante sit amet ipsum gravida ultrices vitae vehicula enim. Aenean iaculis velit nec ipsum vulputate molestie sit amet et dui.
+  - integration
+  - plugin
+  description: Integrates Zsh sessions giving them unique IDs and allowing to send commands between them. Main use case is to switch current working directoryin all Zsh sessions, when e.g. switching to work on different project.
 
-- title: Awesome Project 2
-  subtitle: WOW! I really have so many awesome projects
-  homepage: http://www.github.com/InsidiousMind
-  image: static/img/placeholder.jpg
-  date: Jan 2017
+- title: ZGDBM
+  subtitle: GDBM module for Zsh
+  homepage: http://www.github.com/zdharma/zgdbm
+  image: /static/img/dharma_logo.png
+  date: Feb 2017
   tags:
-  - cool
-  - dope
-  - nice
-  - project
-  - React
-  - Javascript
-  - Ruby
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec ante sit amet ipsum gravida ultrices vitae vehicula enim. Aenean iaculis velit. 
-# An example of an author header without media
-- author: Andrew Plaza
-  author_tag: You can also format it like this!
-  avatar: true
-  homepage: http://www.github.com/InsidiousMind
-  title: An Awesome Project
-  subtitle: some kind of subtitle
-  description: Project Excerpt...Sweet!! Something about my project that is really cool! Like, this project basically bootstraps a rocket ship and flies you to the moon, for free! It's the next great thing, next to...er, oreos. Oreos are pretty great.
+  - integration
+  - plugin
+  description: Rewritten, robust GDBM module for Zsh. Submitted to upstream, here available as a plugin that will compile itself and load into any Zsh. This module has extensions not present in upstream.
 
-- author: Linus Torvalds
-  author_tag: I'm linus, and this is a really cool project
-  avatar: true
-  title: Linux OS
-  homepage: http://www.github.com/InsidiousMind
-  image: static/img/placeholder.jpg
-  date: Jan 2017
-  description:  Project Excerpt....Yayy! Something about my project that is really cool! You know what else are cool?? Oreos. Oreos are love, Oreos are life.
-
-- author: Andrew Tanenbaum
-  author_tag: I'm pretty good at building OS stuff
-  avatar: true
-  title: MINIX
-  subtitle: I'm doing really well with cool projects, aren't I?!
-  homepage: http://www.github.com/InsidiousMind
-  image: static/img/placeholder.jpg
-  date: Jan 2017
-  description: Hey! Did you know this is a masonry layout built with flexbox? You can reorder this section to your hearts content!
+- title: HSMW
+  subtitle: history-search-multi-word, syntax highlighted history search for Zsh
+  homepage: http://www.github.com/zdharma/history-search-multi-word
+  image: /static/img/dharma_logo.png
+  date: Dec 2016
+  tags:
+  - history
+  - syntax-coloring
+  - plugin
+  description: Highly optimized plugin displaying syntax-highlighted, multi-line history that you can search with multi-terms. Sophisticated features like presenting of context of found history entry and bumping-to-top of selected history entries.
