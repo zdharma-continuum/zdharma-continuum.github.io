@@ -24,7 +24,6 @@ class Footer extends Component {
 
                 <li>{this.props.config.title}</li>
                 <li><a href={`mailto:${this.props.config.email}`}>{this.props.config.email}</a></li>
-                <li><p>&copy; Material Bliss Jan 2017-{today.getFullYear()}</p></li>
                 <li><a href="https://github.com/InsidiousMind/material-bliss-jekyll-theme">Material Bliss Theme</a></li>
               </ul>
             </div>
