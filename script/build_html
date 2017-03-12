@@ -1,0 +1,27 @@
+#!/bin/zsh
+
+if [[ "$PWD" != */zdharma.github.io ]]; then
+    echo "Script ran outside ~/github/zdharma.github.io"
+    return 1
+fi
+
+# Prepare html, go to master
+rm -rf ~/tmp/public
+cp -R public ~/tmp
+git checkout master
+
+# Sync
+git fetch origin master
+git reset --hard origin/master
+
+# Clean and get the html
+echo Removing..
+rm -rf *~*(LICENSE|node_modules)* .eslintrc .travis.yml .babelrc
+mv ~/tmp/public/* .
+
+# Commit, push
+git add -A
+git diff --cached
+sleep 3
+git commit -m "build_html: copy html files"
+git push origin master
