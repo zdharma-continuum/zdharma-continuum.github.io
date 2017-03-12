@@ -7,45 +7,43 @@
 
 # Site settings
 react:
-  title: Material Bliss
-  name: Andrew Plaza
-  menu_right_subtitle: Blogger || Computer Scientist
-  avatar: http://api.adorable.io/avatar/aplaza@liquidthink.net
+  title: Zdharma Initiative
+  name: Sebastian Gniazdowski
+  menu_right_subtitle: Computer Scientist
+  avatar: static/img/znt_logo150.png
   logo: static/img/logo_theme.jpg
-  email: aplaza@liquidthink.net
+  email: sgniazdowski@gmail.com
   description: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+    Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
+    library, Zconvey – Zsh session integration via file locks
+    and sched.
   baseurl: "" # the subpath of your site, e.g. /blog
   url: "http://zdharma.org" # the base hostname & protocol for your site
   permalink: /posts/:title
   social:
-    twitter: http://twitter.com/liquid_think
-    github: http://github.com/InsidiousMind
-    facebook: http://facebook.com/liquidthinknet
-    code: http://livecoding.tv/insidious #livecoding.tv handle
-    google-plus: http://plus.google.com/+LiquidthinkNet #make sure to include the '+'
+    github: http://github.com/zdharma
+    twitter: http://twitter.com/zdharmai
+    facebook: http://facebook.com/zdharmai
     rss: feed.xml
 
 
 
-title: Material Bliss
-name: Andrew Plaza
-menu_right_subtitle: Blogger || Computer Scientist
-avatar: http://api.adorable.io/avatar/aplaza@liquidthink.net
+title: Zdharma Initiative
+name: Sebastian Gniazdowski
+menu_right_subtitle: Computer Scientist
+avatar: static/img/znt_logo150.png
 logo: static/img/logo.png
-email: aplaza@liquidthink.net
+email: sgniazdowski@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
+    library, Zconvey – Zsh session integration via file locks
+    and sched.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zdharma.org" # the base hostname & protocol for your site
 permalink: /posts/:title
 
-twitter_username: liquid_think
-github_username: InsidiousMind
+twitter_username: zdharmai
+github_username: zdharma
 
 
 # Build settings
