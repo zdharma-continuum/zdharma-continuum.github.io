@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf public
 npm install &&
 bundle install &&
 bundle update &&
