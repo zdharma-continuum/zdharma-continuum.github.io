@@ -6,7 +6,7 @@ type: post
 categories: overview
 tags: zdharma
 ---
-BEGIN I've created zdharma.org and multiple Zsh projects because the Zsh language is enough powerfull
+I've created zdharma.org and multiple Zsh projects because the Zsh language is enough powerfull
 to support sophisticated and large tasks. Main project is currently **ZUI** – Zsh User Interface
 library, that allows to create applications with curses interface in a manner resembling CGI+(D)HTML.
 It recalls the old term "RAD" – rapid application development. Here is what is sufficient to create
