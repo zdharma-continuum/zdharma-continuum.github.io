@@ -9,7 +9,19 @@ import { fetchSiteInfo } from '../actions/index';
 import Menu from '../components/menu';
 import { RightBar } from '../components/right_menu_bar';
 
+import {
+  grey50
+} from 'material-ui/styles/colors';
+
 class Header extends Component {
+
+  styles = {
+    title: {
+            fontSize: '24px',
+            fontFamily: 'monospace',
+            color: grey50,
+    }
+  }
 
   constructor(props) {
     super(props);
@@ -42,6 +54,8 @@ class Header extends Component {
     return (
       <div>
         <AppBar
+          title="Zdharma Initiative"
+          titleStyle={this.styles.title}
           className='app-bar'
           onLeftIconButtonTouchTap={this.handleToggle}
           showMenuIconButton={this.hideMenuButton()}
