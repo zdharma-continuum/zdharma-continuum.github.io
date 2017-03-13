@@ -6,13 +6,13 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Mar 2017 10:14:29 +0100</pubDate>
-    <lastBuildDate>Mon, 13 Mar 2017 10:14:29 +0100</lastBuildDate>
+    <pubDate>Mon, 13 Mar 2017 12:12:07 +0100</pubDate>
+    <lastBuildDate>Mon, 13 Mar 2017 12:12:07 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
         <title>Overview of available projects</title>
-        <description>&lt;p&gt;BEGIN I’ve developed 14 Zsh projects. I see five of them to be at Zdharma
+        <description>&lt;p&gt;I’ve developed 14 Zsh projects. I see five of them to be at Zdharma
 mainstream, rest of the projects might get an uplift to fit into Zdharma goals
 (robust and well working Zsh software) in the future, mainly by use of ZUI
 curses interface library. One of the projects is a Zsh module, not a plugin:&lt;/p&gt;
@@ -65,7 +65,7 @@ a completion mechanism that uses manual pages as source&lt;/li&gt;
     
       <item>
         <title>Zdharma Initiative starting up</title>
-        <description>&lt;p&gt;BEGIN I’ve created zdharma.org and multiple Zsh projects because the Zsh language is enough powerfull
+        <description>&lt;p&gt;I’ve created zdharma.org and multiple Zsh projects because the Zsh language is enough powerfull
 to support sophisticated and large tasks. Main project is currently &lt;strong&gt;ZUI&lt;/strong&gt; – Zsh User Interface
 library, that allows to create applications with curses interface in a manner resembling CGI+(D)HTML.
 It recalls the old term “RAD” – rapid application development. Here is what is sufficient to create
