@@ -23,5 +23,5 @@ mv ~/tmp/public/* .
 git add -A
 git diff --cached
 sleep 3
-git commit -m "build_html: copy html files"
+git commit # -m "build_html: copy html files"
 git push origin master
