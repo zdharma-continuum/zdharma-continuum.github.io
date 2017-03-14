@@ -54,7 +54,7 @@ class Header extends Component {
     return (
       <div>
         <AppBar
-          title="Zdharma Initiative"
+          title=">: Zdharma Initiative"
           titleStyle={this.styles.title}
           className='app-bar'
           onLeftIconButtonTouchTap={this.handleToggle}
