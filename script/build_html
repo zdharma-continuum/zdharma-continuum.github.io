@@ -5,10 +5,12 @@ if [[ "$PWD" != */zdharma.github.io ]]; then
     return 1
 fi
 
+git diff-index --quiet HEAD -- || { echo "Uncommited changes"; exit 2; }
+
 # Prepare html, go to master
 rm -rf ~/tmp/public
 cp -R public ~/tmp
-git checkout master
+git checkout master || exit 1
 
 # Sync
 git fetch origin master
