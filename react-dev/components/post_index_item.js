@@ -64,10 +64,8 @@ const renderPosts = (props) => _.reverse(props.posts.map((post) => {
         <div className="div-container">
           <a href={postLink} >
             <RaisedButton
-              label="Read More"
-              labelPosition="before"
               secondary
-              icon={<FontIcon className="material-icons">&#xE037;</FontIcon>}
+              icon={<img src="/static/img/CounterZeroHieroglyphic.png" />}
               className="raised-button-override"
             />
           </a>
