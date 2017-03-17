@@ -6,8 +6,8 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Mar 2017 21:08:08 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Mar 2017 21:08:08 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Mar 2017 21:15:38 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Mar 2017 21:15:38 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
@@ -116,7 +116,7 @@ hello world application:&lt;/p&gt;
     &lt;span class=&quot;nv&quot;&gt;reply2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;               &lt;span class=&quot;nv&quot;&gt;reply3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; 1 &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                &lt;span class=&quot;nv&quot;&gt;reply4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out full &lt;a href=&quot;https://github.com/zdharma/zui/blob/master/zui-demo-hello-world&quot;&gt;Hello World&lt;/a&gt; example code.&lt;/p&gt;
+&lt;p&gt;Check out full &lt;a href=&quot;https://github.com/zdharma/zui/blob/master/demos/zui-demo-hello-world&quot;&gt;Hello World&lt;/a&gt; example code.&lt;/p&gt;
 
 &lt;p&gt;Other featured project is &lt;strong&gt;Zconvey&lt;/strong&gt;. It allows to send commands between Zsh sessions. Its main use
 case is to switch your workflow to new project with:&lt;/p&gt;
