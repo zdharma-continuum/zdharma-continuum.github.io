@@ -6,8 +6,8 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Mar 2017 21:02:06 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Mar 2017 21:02:06 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Mar 2017 21:08:08 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Mar 2017 21:08:08 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
@@ -30,7 +30,7 @@ stage to happen ;). Who knows what else will get possible. Currently implemented
 &lt;p&gt;Check out &lt;a href=&quot;https://asciinema.org/a/107691&quot;&gt;demo&lt;/a&gt; on text-fields and list-boxes. The timeout callback
 is basically a timer that calls your function every N milliseconds – a
 &lt;a href=&quot;https://asciinema.org/a/107688&quot;&gt;configure/make wrapper&lt;/a&gt; has been written that way. There are
-endless posibilities with &lt;a href=&quot;https://github.com/zdharma/zui/wiki&quot;&gt;ZUI&lt;/a&gt;.&lt;/p&gt;
+endless possibilities with &lt;a href=&quot;https://github.com/zdharma/zui/wiki&quot;&gt;ZUI&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Mar 2017 20:52:00 +0100</pubDate>
         <link>http://zdharma.org/posts/ZUI-release-is-near</link>
