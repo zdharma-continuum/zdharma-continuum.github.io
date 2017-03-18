@@ -14,7 +14,7 @@ const styles = {
   }
 };
 
-const action = '//liquidthink.us10.list-manage.com/subscribe/post?u=f1a0e46a4769f1cbba967ae1d&amp;id=517d09234a';
+const action = '//zdharma.us15.list-manage.com/subscribe/post?u=292c71da86fbd46ee4e5655aa&amp;id=f84b7ee48d';
 
 export default class SignupForm extends Component {
   constructor(props) {
@@ -52,7 +52,7 @@ export default class SignupForm extends Component {
           <div style={styles.robotDiv} aria-hidden="true">
             <input
               type="text"
-              name="b_f1a0e46a4769f1cbba967ae1d_517d09234a"
+              name="b_292c71da86fbd46ee4e5655aa_f84b7ee48d"
               tabIndex="-1"
               value=''
             />
