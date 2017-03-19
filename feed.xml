@@ -6,9 +6,51 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 09:19:00 +0100</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 09:19:00 +0100</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 15:54:18 +0100</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 15:54:18 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
+    
+      <item>
+        <title>Text Editor In 30 Minutes</title>
+        <description>&lt;p&gt;ZUI’s architecture has proven its value. I have only superficially tried to write a text editor in it, and it was
+elevated in about 30 minutes. Multiple text-fields, one for each line of text from input file – and that’s pretty it.
+Saving file is a breeze with inline-handlers:&lt;/p&gt;
+
+&lt;div class=&quot;language-zsh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-zui_std_rc_button &lt;span class=&quot;s2&quot;&gt;&quot;bsave&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Save&quot;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'internal=1; print -rl -- &quot;${lines[@]}&quot; &amp;gt; $edited_file'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The code in apostrophes will be invoked on press of the button. Creating text fields for each line of text from input
+file is also easy:&lt;/p&gt;
+
+&lt;div class=&quot;language-zsh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;noglob -zui_std_text_field &lt;span class=&quot;s2&quot;&gt;&quot;tfield&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;idx&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; width offset lines[&lt;span class=&quot;nv&quot;&gt;$idx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;noglob&lt;/code&gt; causes &lt;code class=&quot;highlighter-rouge&quot;&gt;line[$idx]&lt;/code&gt; to be treated as text and not as pattern. So, a hyper-link is created, with
+backend-variable &lt;code class=&quot;highlighter-rouge&quot;&gt;line[&amp;lt;line-number&amp;gt;]&lt;/code&gt; – which is single entry in array to which we read the whole file.&lt;/p&gt;
+
+&lt;p&gt;The text editor supports 1000 lines on current Zshells. I have submitted optimizations that make this 6000 lines – they
+will be rolled out in next release (5.3.2). Main use case of such text-area is IMO editing of small config file in a
+deploy tool, where you change only e.g. an IP, and press “Deploy” to run main task. That’s why 1000 lines is enough, and
+6000 even better.&lt;/p&gt;
+
+&lt;p&gt;Check out recorded &lt;a href=&quot;https://asciinema.org/a/107800&quot;&gt;demo&lt;/a&gt; of this text editor.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Mar 2017 15:36:00 +0100</pubDate>
+        <link>http://zdharma.org/posts/Text-Editor-In-30-Minutes</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/Text-Editor-In-30-Minutes</guid>
+        
+        <category>projects</category>
+        
+        <category>zui</category>
+        
+        <category>rad</category>
+        
+        
+        <category>zui</category>
+        
+      </item>
     
       <item>
         <title>ZUI release is near</title>
