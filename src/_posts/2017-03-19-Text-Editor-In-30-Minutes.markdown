@@ -26,7 +26,7 @@ The `noglob` causes `line[$idx]` to be treated as text and not as pattern. So, a
 backend-variable `line[<line-number>]` – which is single entry in array to which we read the whole file.
 
 The text editor supports 1000 lines on current Zshells. I have submitted optimizations that make this 6000 lines – they
-will be rolled out in next release (5.3.2). Main use case of such text-area is IMO editing of small config file in a
+will be rolled out in next Zsh release (5.3.2). Main use case of such text-area is IMO editing of small config file in a
 deploy tool, where you change only e.g. an IP, and press "Deploy" to run main task. That's why 1000 lines is enough, and
 6000 even better.
 
