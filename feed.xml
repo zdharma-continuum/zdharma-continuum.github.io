@@ -6,8 +6,8 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 15:54:18 +0100</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 15:54:18 +0100</lastBuildDate>
+    <pubDate>Mon, 20 Mar 2017 07:17:42 +0100</pubDate>
+    <lastBuildDate>Mon, 20 Mar 2017 07:17:42 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
@@ -31,7 +31,7 @@ file is also easy:&lt;/p&gt;
 backend-variable &lt;code class=&quot;highlighter-rouge&quot;&gt;line[&amp;lt;line-number&amp;gt;]&lt;/code&gt; – which is single entry in array to which we read the whole file.&lt;/p&gt;
 
 &lt;p&gt;The text editor supports 1000 lines on current Zshells. I have submitted optimizations that make this 6000 lines – they
-will be rolled out in next release (5.3.2). Main use case of such text-area is IMO editing of small config file in a
+will be rolled out in next Zsh release (5.3.2). Main use case of such text-area is IMO editing of small config file in a
 deploy tool, where you change only e.g. an IP, and press “Deploy” to run main task. That’s why 1000 lines is enough, and
 6000 even better.&lt;/p&gt;
 
