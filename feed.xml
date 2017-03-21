@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zdharma Initiative</title>
-    <description>Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface library, Zconvey – Zsh session integration via file locks and sched.
+    <description>Advanced Zsh projects, e.g. ZUI – DHTML-like curses interface library, Zconvey – Zsh session integration via file locks and sched.
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Mar 2017 12:03:42 +0100</pubDate>
-    <lastBuildDate>Tue, 21 Mar 2017 12:03:42 +0100</lastBuildDate>
+    <pubDate>Tue, 21 Mar 2017 14:30:07 +0100</pubDate>
+    <lastBuildDate>Tue, 21 Mar 2017 14:30:07 +0100</lastBuildDate>
     <generator>Jekyll v3.4.2</generator>
     
       <item>
