@@ -12,7 +12,7 @@ react:
   menu_right_subtitle: Computer Scientist
   avatar: /static/img/dharma_logo.png
   logo: /static/img/logo_theme.png
-  email: sgniazdowski@gmail.com
+  email: psprint@zdharma.org
   description: > # this means to ignore newlines until "baseurl:"
     Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
     library, Zconvey – Zsh session integration via file locks
@@ -33,9 +33,9 @@ name: Sebastian Gniazdowski
 menu_right_subtitle: Computer Scientist
 avatar: /static/img/dharma_logo.png
 logo: /static/img/logo.png
-email: sgniazdowski@gmail.com
+email: psprint@zdharma.org
 description: > # this means to ignore newlines until "baseurl:"
-    Advanced Zsh projects, e.g. ZUI – (D)HTML-like curses interface
+    Advanced Zsh projects, e.g. ZUI – DHTML-like curses interface
     library, Zconvey – Zsh session integration via file locks
     and sched.
 baseurl: "" # the subpath of your site, e.g. /blog
