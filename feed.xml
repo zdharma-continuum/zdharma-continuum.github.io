@@ -6,9 +6,42 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Apr 2017 15:02:52 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2017 15:02:52 +0200</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2017 16:46:29 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2017 16:46:29 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Fast-Syntax-Highlighting Released</title>
+        <description>&lt;p&gt;I have released a plugin that is a highly optimized version Zsh-Syntax-Highlighting project. Overall
+&lt;code class=&quot;highlighter-rouge&quot;&gt;60&lt;/code&gt; optimizing commits have been shipped, and the result is that &lt;code class=&quot;highlighter-rouge&quot;&gt;zed&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;vared&lt;/code&gt; can edit functions
+that have &lt;code class=&quot;highlighter-rouge&quot;&gt;10 kB&lt;/code&gt; of text in their body. Also, multiple syntax-recognition upgrades are being
+shipped:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Variable highlighting&lt;/li&gt;
+  &lt;li&gt;Colorizing of &lt;code class=&quot;highlighter-rouge&quot;&gt;${(a)parameter[...]}&lt;/code&gt; inside strings (normally only &lt;code class=&quot;highlighter-rouge&quot;&gt;$parameter&lt;/code&gt; is colorized)&lt;/li&gt;
+  &lt;li&gt;Fixed colorizing of function definition, like &lt;code class=&quot;highlighter-rouge&quot;&gt;abc() { ... }&lt;/code&gt; – &lt;code class=&quot;highlighter-rouge&quot;&gt;abc&lt;/code&gt; will not be red&lt;/li&gt;
+  &lt;li&gt;Fixed colorizing of complex conditions inside &lt;code class=&quot;highlighter-rouge&quot;&gt;[[&lt;/code&gt;, like &lt;code class=&quot;highlighter-rouge&quot;&gt;[[ &quot;$a&quot; || &quot;$b&quot; ]]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Closing &lt;code class=&quot;highlighter-rouge&quot;&gt;]]&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;]&lt;/code&gt; are highlighted&lt;/li&gt;
+  &lt;li&gt;Paths from &lt;code class=&quot;highlighter-rouge&quot;&gt;$CDPATH&lt;/code&gt; aren’t colorized unless the command is &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Check out full story at &lt;a href=&quot;https://github.com/zdharma/fast-syntax-highlighting&quot;&gt;Github project page&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Apr 2017 16:25:00 +0200</pubDate>
+        <link>http://zdharma.org/posts/Fast-Syntax-Highlighting-Released</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/Fast-Syntax-Highlighting-Released</guid>
+        
+        <category>projects</category>
+        
+        <category>syntax-highlighting</category>
+        
+        <category>colorizing</category>
+        
+        
+        <category>syntax-highlighting</category>
+        
+      </item>
     
       <item>
         <title>Text Editor In 30 Minutes</title>
