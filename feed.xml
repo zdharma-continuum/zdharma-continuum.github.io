@@ -6,13 +6,13 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Apr 2017 16:46:29 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2017 16:46:29 +0200</lastBuildDate>
+    <pubDate>Thu, 13 Apr 2017 17:13:31 +0200</pubDate>
+    <lastBuildDate>Thu, 13 Apr 2017 17:13:31 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Fast-Syntax-Highlighting Released</title>
-        <description>&lt;p&gt;I have released a plugin that is a highly optimized version Zsh-Syntax-Highlighting project. Overall
+        <description>&lt;p&gt;I have released a plugin that is a highly optimized version of Zsh-Syntax-Highlighting project. Overall
 &lt;code class=&quot;highlighter-rouge&quot;&gt;60&lt;/code&gt; optimizing commits have been shipped, and the result is that &lt;code class=&quot;highlighter-rouge&quot;&gt;zed&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;vared&lt;/code&gt; can edit functions
 that have &lt;code class=&quot;highlighter-rouge&quot;&gt;10 kB&lt;/code&gt; of text in their body. Also, multiple syntax-recognition upgrades are being
 shipped:&lt;/p&gt;
