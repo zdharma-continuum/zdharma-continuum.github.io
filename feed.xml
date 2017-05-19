@@ -6,9 +6,32 @@
 </description>
     <link>http://zdharma.org/</link>
     <atom:link href="http://zdharma.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Apr 2017 17:13:31 +0200</pubDate>
-    <lastBuildDate>Thu, 13 Apr 2017 17:13:31 +0200</lastBuildDate>
+    <pubDate>Fri, 19 May 2017 06:30:07 +0200</pubDate>
+    <lastBuildDate>Fri, 19 May 2017 06:30:07 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>New plugin: Zbrowse</title>
+        <description>&lt;p&gt;I have released a plugin that shows current user-defined shell variables in &lt;code class=&quot;highlighter-rouge&quot;&gt;Zsh&lt;/code&gt;. When coding
+a script, testing something in shell, etc. one often does repetitive &lt;code class=&quot;highlighter-rouge&quot;&gt;echo $var&lt;/code&gt; to see result
+of a loop, a function, etc. Now just pressing &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl-B&lt;/code&gt; suffices, a &lt;code class=&quot;highlighter-rouge&quot;&gt;ZUI&lt;/code&gt; application will start
+– the &lt;code class=&quot;highlighter-rouge&quot;&gt;zbrowse&lt;/code&gt;, and nicely list all user-defined (not from e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;zshrc&lt;/code&gt;) parameters (i.e.
+variables). One can also show &lt;strong&gt;all&lt;/strong&gt; shell parameters and search them incrementally.&lt;/p&gt;
+
+&lt;p&gt;The project is located at &lt;a href=&quot;https://github.com/zdharma/zbrowse&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 May 2017 04:35:00 +0200</pubDate>
+        <link>http://zdharma.org/posts/New-Plugin-Zbrowse</link>
+        <guid isPermaLink="true">http://zdharma.org/posts/New-Plugin-Zbrowse</guid>
+        
+        <category>projects</category>
+        
+        <category>zui</category>
+        
+        
+        <category>plugin</category>
+        
+      </item>
     
       <item>
         <title>Fast-Syntax-Highlighting Released</title>
