@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New plugin: Zredis"
-date:   2017-05-01 6:30 +0100
+date:   2017-06-01 6:30 +0100
 type: post
 categories: plugin
 tags: projects plugin zredis
