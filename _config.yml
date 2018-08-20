@@ -1,0 +1,28 @@
+# Site settings
+title:          Zdharma Initiative
+description:    "Zsh Projects"
+url:            "http://zdharma.org"
+
+# Author
+author:
+  name:         Sebastian Gniazdowski
+  url:          https://github.com/psprint
+  email:        sgniazdowski@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
