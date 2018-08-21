@@ -7,9 +7,9 @@ categories: blog
 tags: zplugin
 ---
 
-As most of Zsh users know, there are binary Zsh modules, like for example `zsh/datetime`.
+As most of Zsh users know, there exist binary Zsh modules, like for example `zsh/datetime`.
 The modules extend Zshell, take the mentioned module as an example – it provides a global
-variable `$EPOCHSECONDS` holding unix time-stamp. Not everybody know that those written in
+variable `$EPOCHSECONDS` holding unix time-stamp.<!-- more --> Not everybody know that those written in
 C goodies can come from outside of Zsh installation. Such module is compiled standalone
 using Zshell C headers and if everything goes right, can be loaded into Zsh just like that.
 

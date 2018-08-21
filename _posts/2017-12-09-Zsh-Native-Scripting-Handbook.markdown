@@ -9,7 +9,7 @@ tags: documentation
 
 When writing Zsh plugins I learned (i.a. thanks to #zsh channel) how to avoid
 forks to external tools, for speed and lack of dependencies. I've put this
-experience into Asciidoc document. It captures essential differences between
+experience into Asciidoc document.<!-- more --> It captures essential differences between
 Bash and Zsh and provides quick introduction to Zshell main features, like
 extended-glob or in-substitution code execution. There are two versions
 of the document (rendered differently):

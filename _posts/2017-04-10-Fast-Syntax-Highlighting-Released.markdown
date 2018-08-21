@@ -9,7 +9,7 @@ tags: projects syntax-highlighting colorizing
 
 I have released a plugin that is a highly optimized version of Zsh-Syntax-Highlighting project. Overall
 `60` optimizing commits have been shipped, and the result is that `zed`/`vared` can edit functions
-that have `10 kB` of text in their body. Also, multiple syntax-recognition upgrades are being
+that have `10 kB` of text in their body.<!-- more --> Also, multiple syntax-recognition upgrades are being
 shipped:
 
 1. Variable highlighting

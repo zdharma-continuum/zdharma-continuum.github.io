@@ -10,7 +10,7 @@ tags: projects
 I've developed 14 Zsh projects. I see five of them to be at Zdharma
 mainstream, rest of the projects might get an uplift to fit into Zdharma goals
 (robust and well working Zsh software) in the future, mainly by use of ZUI
-curses interface library. One of the projects is a Zsh module, not a plugin:
+curses interface library. <!-- more --> One of the projects is a Zsh module, not a plugin:
 
 * [ZUI](https://github.com/zdharma/zui) –
   CGI+(D)HTML-like RAD user interface library (curses)

@@ -8,7 +8,7 @@ tags: projects zui rad
 ---
 
 ZUI's architecture has proven its value. I have only superficially tried to write a text editor in it, and it was
-elevated in about 30 minutes. Multiple text-fields, one for each line of text from input file – and that's pretty it.
+elevated in about 30 minutes.<!-- more --> Multiple text-fields, one for each line of text from input file – and that's pretty it.
 Saving file is a breeze with inline-handlers:
 
 ```zsh

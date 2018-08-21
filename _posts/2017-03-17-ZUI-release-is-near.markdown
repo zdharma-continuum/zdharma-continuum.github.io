@@ -9,7 +9,7 @@ tags: projects zui
 
 I've implemented almost every needed feature. There were refactoring stage, final-touches stage,
 even an optimization stage. I will keep on working for at least 2 weeks, to allow an afterthought
-stage to happen ;). Who knows what else will get possible. Currently implemented:
+stage to happen ;)<!-- more -->. Who knows what else will get possible. Currently implemented:
 
 - buttons,
 - anchors,
