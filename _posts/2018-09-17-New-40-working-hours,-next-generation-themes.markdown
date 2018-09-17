@@ -18,15 +18,16 @@ I ended up working for about 10 days, 4 hours each day on average. It was a daun
 tries to turn myself into some possible creative state, when staring at a few lines of Zsh code
 doesn't yield perfect emptiness in mind, but instead some observation, some fact or theory. An
 example of such theory that once came up: Zsh builtin command, like `echo`, should be of the same
-color as any subcommand (i.e. `clone` in `git clone https://...`), because both `builtins` and
+color as any subcommand (i.e. `clone` in `git clone https://...`, etc.), because both `builtins` and
 `subcommands` are not standalone objects, but are embedded in their main programs. So `echo` is
-built into `zsh` program, and `clone` is built into `git` program (git's implementation is very
-modular, but logically `clone` **is** a part of `git`).
+built into `zsh` program and `clone` is built into `git` program (git's implementation is very
+modular, but logically `clone` **is** a part of `git`), and this makes those two command line
+objects a single group, with single color.
 
 ## X-Paragon
 
-I've wrote 130 lines text document with `17` premises, theories of how an object of the command line
-should be colorized. The effect is the `X-Paragon` theme:
+I've wrote 130 lines text document with `17` premises or theories of how an object of the command
+line should be colorized. The effect is the `X-Paragon` theme:
 
 ![x-paragon theme](/assets/x-paragon.png)
 
@@ -105,18 +106,20 @@ properties.
 ## Setting themes
 
 Invoke e.g. `fast-theme ./x-paragon.ini` after downloading the theme file. For `q-jmnemonic`, which
-is shipped with the newest `fast-syntax-highlighting` version, the path can be skipped, i.e.
+is shipped with the newest `fast-syntax-highlighting` version, the path can be skipped, i.e. invoke
+just
 `fast-theme q-jmnemonic`. Use option `-t` to display the same block of Zsh code as the screenshots
-are using.
+are using, to test the theme.
 
 # Conclusions
 
 The themes should have significant value in them, because:
 
- - they're based on SyntaxEnvy theme generator, which
+ - they're based on the great [SyntaxEnvy](https://www.syntaxenvy.com) theme generator, which
    [promises](http://www.boronine.com/2012/10/06/My-Progress-On-HUSL/) constant lightness and
    saturation,
- - colors in them are obtained with `CIE L*a*b` color space, which promises to do a most faithful
+ - colors in them are obtained with [CIE L\*a\*b](https://en.wikipedia.org/wiki/CIELAB_color_space)
+   color space, which promises to do a most faithful
    reduction from 24-bit color into 8-bit xterm-256 palette,
  - they're created during as much as 10 days of thinking on backing-up theory on color allocation.
 
