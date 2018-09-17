@@ -121,3 +121,7 @@ The themes should have significant value in them, because:
 I plan to take different routes in the backing-up theory and see what theme will result from this.
 It will be available to `$5` [patrons](https://Patreon.com/psprint) within two months (before
 Novermber, 10th). I will make a free spin-off of this theme too and include it in Github repository.
+
+For comments you can use [twitter](https://twitter.com/ZdharmaI/status/1041733296827375616) and
+[reddit](https://www.reddit.com/r/zsh/comments/9gm41c/10_days_of_work_radically_timeinvested_themes_for/)
+or send email directly to me using the following address: `sgniazdowski {<at>} gmail.com`.
