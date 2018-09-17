@@ -30,7 +30,7 @@ should be colorized. The effect is the `X-Paragon` theme:
 
 ![x-paragon theme](/assets/x-paragon.png)
 
-Besides the theory backed-up allocation of colors described above (130 lines of explaining why
+Besides the theory-backed-up allocation of colors described above (130 lines of explaining why
 object X should be of color Y) and quality traits provided by
 [www.syntaxenvy.com](https://www.syntaxenvy.com), it has features that never occurred in the free,
 default themes, like:
@@ -43,7 +43,7 @@ The theme isn't available by default (but there's other one, see below). I've cr
 say thanks to people that support me at [www.Patreon.com](https://patreon.com/psprint). You can join
 and download the theme (and the following `X-Fervent` & `X-Tranquil`) for `$1` a month. But hold on.
 I provide a complete palette used by the theme here below, and the screenshot above, so you can
-recreate the theme in a hour or so (color names taken [from here](https://jonasjacek.github.io/colors/)):
+recreate the theme in a hour or so (color names are taken [from here](https://jonasjacek.github.io/colors/)):
 
 `CIE L*a*b` (it keeps constant lightness [promised by](http://www.boronine.com/2012/10/06/My-Progress-On-HUSL/) [www.syntaxenvy.com](https://www.syntaxenvy.com)):<br/>
 <div style='background-color: #afd7ff;' align="right"><div>LightSkyBlue1&nbsp;</div></div>
@@ -65,7 +65,7 @@ used to constitute the spine of the theme – the above ones are used):<br/>
 <div style="background-color: #87afaf;" align="right"><div>LightSkyBlue3&nbsp;</div></div>
 <div style="background-color: #000000;" align="right"><div style='color: white;'>Grey0&nbsp;</div></div>
 
-[www.syntaxenvy.com base for the theme.](https://www.syntaxenvy.com/0063633)
+<br/>[The www.syntaxenvy.com base for the theme.](https://www.syntaxenvy.com/0063633)
 
 ## CIE L\*a\*b
 
@@ -80,7 +80,8 @@ tool is really needed.
 
 This is a free theme currently shipped with Fast-Syntax-Highlighting. It is a descentant of
 `X-Paragon` theme, so it mostly shares the points of the 130-line theory. Check out its [SyntaxEnvy
-base theme](https://www.syntaxenvy.com/0753499).
+base theme](https://www.syntaxenvy.com/0753499). The name comes from me having instant recall of the
+Johnny Mnemonic movie when I first time saw the theme after SyntaxEnvy drawed it :)
 
 ![q-jmnemonic theme](/assets/q-jmnemonic.png)
 
@@ -96,7 +97,7 @@ colors. It's `X-Paragon` descendant, sharing its properties.
 
 It's [Patreon](https://patreon.com/psprint)-only theme. It was created because its [SyntaxEnvy base
 theme](https://www.syntaxenvy.com/0854273) has interesting property: it is a dark theme, however
-it's still easily readable, not dull, only half-way dark. It's `X-Paragon` descendant, sharing its
+it is still easily readable, not dull, only half-way dark. It's `X-Paragon` descendant, sharing its
 properties.
 
 ![x-tranquil theme](/assets/x-tranquil.png)
@@ -105,7 +106,8 @@ properties.
 
 Invoke e.g. `fast-theme ./x-paragon.ini` after downloading the theme file. For `q-jmnemonic`, which
 is shipped with the newest `fast-syntax-highlighting` version, the path can be skipped, i.e.
-`fast-theme q-jmnemonic`.
+`fast-theme q-jmnemonic`. Use option `-t` to display the same block of Zsh code as the screenshots
+are using.
 
 # Conclusions
 
