@@ -29,7 +29,7 @@ objects a single group, with single color.
 I've wrote 130 lines text document with `17` premises or theories of how an object of the command
 line should be colorized. The effect is the `X-Paragon` theme:
 
-![x-paragon theme](/assets/x-paragon.png)
+[![x-paragon theme](/assets/x-paragon.png)](/assets/x-paragon.png)
 
 Besides the theory-backed-up allocation of colors described above (130 lines of explaining why
 object X should be of color Y) and quality traits provided by
@@ -84,7 +84,7 @@ This is a free theme currently shipped with Fast-Syntax-Highlighting. It is a de
 base theme](https://www.syntaxenvy.com/0753499). The name comes from me having instant recall of the
 Johnny Mnemonic movie when I first time saw the theme after SyntaxEnvy drawed it :)
 
-![q-jmnemonic theme](/assets/q-jmnemonic.png)
+[![q-jmnemonic theme](/assets/q-jmnemonic.png)](/assets/q-jmnemonic.png)
 
 ## X-Fervent
 
@@ -92,7 +92,7 @@ It's [Patreon](https://patreon.com/psprint)-only theme. It was created because i
 theme](https://www.syntaxenvy.com/0684041) showed interesting balance between dull and intense
 colors. It's `X-Paragon` descendant, sharing its properties.
 
-![x-fervent theme](/assets/x-fervent.png)
+[![x-fervent theme](/assets/x-fervent.png)](/assets/x-fervent.png)
 
 ## X-Tranquil
 
@@ -101,7 +101,7 @@ theme](https://www.syntaxenvy.com/0854273) has interesting property: it is a dar
 it is still easily readable, not dull, only half-way dark. It's `X-Paragon` descendant, sharing its
 properties.
 
-![x-tranquil theme](/assets/x-tranquil.png)
+[![x-tranquil theme](/assets/x-tranquil.png)](/assets/x-tranquil.png)
 
 ## Setting themes
 
