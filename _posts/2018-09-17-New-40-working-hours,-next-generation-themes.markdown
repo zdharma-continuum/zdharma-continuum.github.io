@@ -57,7 +57,7 @@ recreate the theme in a hour or so (color names are taken [from here](https://jo
 <div align="right"><div>&nbsp;</div></div>
 Naive conversion (note the bumpy, breaking down brightness; still, those colors are in a way similar
 to the RGB 24-bit colors given by [www.syntaxenvy.com](https://www.syntaxenvy.com), but they aren't
-used to constitute the spine of the theme – the above ones are used):<br/>
+used to constitute the spine of the theme – the above ones are used for this):<br/>
 <div style="background-color: #87afd7;" align="right"><div>LightSkyBlue3&nbsp;</div></div>
 <div style="background-color: #5f87d7;" align="right"><div>SteelBlue3&nbsp;</div></div>
 <div style="background-color: #afaf5f;" align="right"><div>DarkKhaki&nbsp;</div></div>
