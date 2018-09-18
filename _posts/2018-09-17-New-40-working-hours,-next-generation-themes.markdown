@@ -80,9 +80,10 @@ tool is really needed.
 ## Q-JMnemonic
 
 This is a free theme currently shipped with Fast-Syntax-Highlighting. It is a descentant of
-`X-Paragon` theme, so it mostly shares the points of the 130-line theory. Check out its [SyntaxEnvy
+`X-Paragon` theme, so it shares the points of the 130-line theory. Check out its [SyntaxEnvy
 base theme](https://www.syntaxenvy.com/0753499). The name comes from me having instant recall of the
-Johnny Mnemonic movie when I first time saw the theme after SyntaxEnvy drawed it :)
+Johnny Mnemonic movie when I first time saw the theme after SyntaxEnvy drawed it :) I don't know
+why it recalled, but there has to be something in the theme :)
 
 [![q-jmnemonic theme](/assets/q-jmnemonic.png)](/assets/q-jmnemonic.png)
 
