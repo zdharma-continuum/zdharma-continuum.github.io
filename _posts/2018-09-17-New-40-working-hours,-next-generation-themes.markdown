@@ -10,7 +10,7 @@ tags: zplugin
 It was September, 3rd when I've decided to do an utmost, **radically time-invested** theme for the
 plugin `zdharma/fast-syntax-highlighting`. I was finishing two `www.syntaxenvy.com`-based themes,
 `sv-plant` and `sv-orple` and I noticed how unsupported by anything are my decisions about assigning
-colors in given way. I then decided to **understand** objects in command line and colorize them
+colors in given way. I then decided to **understand** the objects in command line and colorize them
 according to a full, **narration-based theory** even if it was to take me two weeks to get this
 done. See the effects.<!-- more -->
 
