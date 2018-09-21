@@ -89,7 +89,8 @@ why it recalled, but there has to be something in the theme :)
 
 ## X-Fervent
 
-It's [Patreon](https://patreon.com/psprint)-only theme. It was created because its [SyntaxEnvy base
+Theme created to say thanks to [Patreon](https://patreon.com/psprint) supporters, available through
+that portal. It was created because its [SyntaxEnvy base
 theme](https://www.syntaxenvy.com/0684041) showed interesting balance between dull and intense
 colors. It's `X-Paragon` descendant, sharing its properties.
 
@@ -97,7 +98,8 @@ colors. It's `X-Paragon` descendant, sharing its properties.
 
 ## X-Tranquil
 
-It's [Patreon](https://patreon.com/psprint)-only theme. It was created because its [SyntaxEnvy base
+Theme created to say thanks to [Patreon](https://patreon.com/psprint) supporters, available through
+that portal. It was created because its [SyntaxEnvy base
 theme](https://www.syntaxenvy.com/0854273) has interesting property: it is a dark theme, however
 it is still easily readable, not dull, only half-way dark. It's `X-Paragon` descendant, sharing its
 properties.
