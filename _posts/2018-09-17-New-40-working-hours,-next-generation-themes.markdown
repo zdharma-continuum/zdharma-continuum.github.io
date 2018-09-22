@@ -70,8 +70,8 @@ used to constitute the spine of the theme – the above ones are used for this):
 
 ## CIE L\*a\*b
 
-I have an interesting tool written in C and I plan to make it available to `$5` patrons if there
-will be an interest.  The tool converts 24 bit RGB input color into xterm-256 color
+I have an interesting tool written in C. I can disclose it to interested people (it's not mine, but
+I can share with a few people). The tool converts 24 bit RGB input color into xterm-256 color
 [palette](https://jonasjacek.github.io/colors/) using `CIE L*a*b` color space. The point is that
 `CIE L*a*b` tries to follow **human perception of how much two colors differ**. That is why it gave
 so good results for the `X-Paragon` theme. When converting color themes from www.syntaxenvy.com such
