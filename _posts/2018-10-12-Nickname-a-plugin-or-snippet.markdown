@@ -18,7 +18,7 @@ zplugin light "docker/compose"
 
 This registers plugin under **ID** `docker/compose`. Now the user could want to
 load a **completion** from Github repository (not the binary release catalog)
-also called `docker/compose`. The two IDs, bot being **docker/compose**, will
+also called `docker/compose`. The two IDs, both being **docker/compose**, will
 collide. The user can however resolve the conflict via `id-as''` ice-mod by
 loading the completion under a **nick-name** `dc-completion`:
 
