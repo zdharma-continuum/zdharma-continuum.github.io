@@ -50,5 +50,5 @@ zplugin snippet https://github.com/Osse/git-scripts/blob/master/git-unique
 `zplugin delete git-unique` will work, `zplugin times` will show `git-unique`
 instead of the URL, etc.
 
-For comments you can use [twitter](https://twitter.com/ZdharmaI/status/1041733296827375616)
+For comments you can use [twitter](https://twitter.com/ZdharmaI/status/1050743050748727297)
 or send email directly to me using the following address: `sgniazdowski {<at>} gmail.com`.
