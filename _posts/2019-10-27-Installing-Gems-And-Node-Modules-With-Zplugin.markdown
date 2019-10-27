@@ -13,6 +13,7 @@ annex you can install Ruby Gems and Node modules in an interesting way:
 - they'll be installed in the plugin's or snippet's directory,
 - an automatic function will be provided to run the binary that's provided by
   the package.
+<!--more-->
 
 This has several benefits. For example, no `$PATH` alteration is required in the
 `.zprofile` file. Also, the package will be automatically updated on `zplugin
