@@ -21,7 +21,6 @@ This has several benefits. For example, no `$PATH` alteration is required in the
 update`. Plus, the installation will be isolated from other packages – multiple
 packages not be put in a single place.
 
-
 An example Zplugin invocation that installs the `remark` tool that can be used
 to convert Markdown documents into man pages:
 
@@ -44,7 +43,6 @@ plugin.
 The exclamation-mark before `!remark-cli` is important – it causes the automatic
 function invoking the binary to be created. More information can be found on the
 [bin-gem-node annex page](https://github.com/zplugin/z-a-bin-gem-node).
-
 
 The command installs 2 node modules – `remark-cli` and `remark-man` (the backend
 for the `remark` converter – `remark` can convert also to other formats). By
