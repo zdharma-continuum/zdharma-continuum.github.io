@@ -17,13 +17,26 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
+baseurl: ''
+
+## default date_format
+date_format: 
+  title: "%B-%-d-%Y"
+  archive: "%b"
+  categories: "%b-%Y"
+  tag: "%b-%Y"
+# Language
+lan: "en" 
+
 # Gems
 plugins:
   - jekyll-feed
   - jekyll-paginate
   # - jemoji #Uncomment this to allow emoji in your post
 
+exclude: ['LICENSE', "*.bak"]
+
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       7
+paginate:       10
 excerpt_separator: "<!-- more -->"
