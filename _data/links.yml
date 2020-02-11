@@ -1,5 +1,24 @@
-- url: "http://xixia.info"
-  title: "Xixia"
+- url: "https://twitter.com/ZdharmaI"
+  title: "Twitter"
 
-- url: "https://github.com/zxixia/jekyll-xixia"
-  title: "Jekyll-Xixia"  
+- url: "Zinit"
+  title: "https://github.com/zdharma/zinit"
+
+- url: "Fast Syntax Highlighting"
+  title: "https://github.com/zdharma/fast-syntax-highlighting"
+
+- url: "Plugin Standard"
+  title: "http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html"
+
+- url: "Zinit Wiki"
+  title: "http://zdharma.org/zinit/wiki/"
+
+- url: "Zinit Reddit"
+  title: "http://reddit.com/r/zinit/"
+
+- url: "Scripting Handbook"
+  title: "http://zdharma.org/Zsh-100-Commits-Club/Zsh-Native-Scripting-Handbook.html"
+
+- url: ""
+  title: ""
+
