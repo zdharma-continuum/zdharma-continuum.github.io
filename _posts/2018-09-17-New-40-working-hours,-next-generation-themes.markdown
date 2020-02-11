@@ -4,7 +4,7 @@ title:  "New 40 working hours, next generation themes"
 date:   2018-09-17 15:05 +0100
 type: post
 categories: blog
-tags: zplugin
+tags: zinit
 ---
 
 It was September, 3rd when I've decided to do an utmost, **radically time-invested** theme for the

@@ -4,16 +4,16 @@ title:  "Nickname a plugin or snippet"
 date:   2018-10-12 14:36 +0100
 type: post
 categories: blog
-tags: zplugin, id-as
+tags: zinit, id-as
 ---
 
-Zplugin now supports `loading a plugin or snippet with a NICK-NAME`. Set the
+Zinit now supports `loading a plugin or snippet with a NICK-NAME`. Set the
 nickname through the new `id-as''` ice-mod. For example, one could try to load
 `docker/compose` from Github **binary releases**:<!-- more -->
 
 ```zsh
-zplugin ice as"program" from"gh-r" mv"docker-compose* -> docker-compose"
-zplugin light "docker/compose"
+zinit ice as"program" from"gh-r" mv"docker-compose* -> docker-compose"
+zinit light "docker/compose"
 ```
 
 This registers plugin under **ID** `docker/compose`. Now the user could want to
@@ -23,15 +23,15 @@ collide. The user can however resolve the conflict via `id-as''` ice-mod by
 loading the completion under a **nick-name** `dc-completion`:
 
 ```zsh
-zplugin ice as"completion" id-as"dc-completion"
-zplugin load docker/compose
+zinit ice as"completion" id-as"dc-completion"
+zinit load docker/compose
 ```
 
-The completion is now seen under ID `dc-completion`. Issuing `zplugin report
-dc-completion` works, so as other Zplugin commands:
+The completion is now seen under ID `dc-completion`. Issuing `zinit report
+dc-completion` works, so as other Zinit commands:
 
 ```
- ▲ ~ zplugin report dc-completion
+ ▲ ~ zinit report dc-completion
 Plugin report for dc-completion
 -------------------------------
 
@@ -43,11 +43,11 @@ This can be also used to nickname snippets. For example, you can use this to
 create handlers in place of long urls:
 
 ```zsh
-zplugin ice as"program" id-as"git-unique"
-zplugin snippet https://github.com/Osse/git-scripts/blob/master/git-unique
+zinit ice as"program" id-as"git-unique"
+zinit snippet https://github.com/Osse/git-scripts/blob/master/git-unique
 ```
 
-`zplugin delete git-unique` will work, `zplugin times` will show `git-unique`
+`zinit delete git-unique` will work, `zinit times` will show `git-unique`
 instead of the URL, etc.
 
 For comments you can use [twitter](https://twitter.com/ZdharmaI/status/1050743050748727297)

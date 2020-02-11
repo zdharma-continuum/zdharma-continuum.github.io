@@ -4,7 +4,7 @@ title:  "How to patch Zshell on the fly"
 date:   2018-08-21 20:00 +0200
 type: post
 categories: blog
-tags: zplugin C
+tags: zinit C
 ---
 
 Some 10 years ago, there was a topic in Linux kernel security – patching live kernel
@@ -45,15 +45,15 @@ setup_( UNUSED( Module m ) )
 }
 {% endhighlight %}
 
-I've decided to use this possibility for good deeds. [Zplugin][zplugin] will soon be shipping a
+I've decided to use this possibility for good deeds. [Zinit][zinit] will soon be shipping a
 binary Zsh module which will extend and customize Zshell. Example of what is currently
 implemented: the `source` builtin automatically **compiles** (i.e. invokes `zcompile`) the file
 being loaded if it isn't already compiled or if the compilation is outdated. Managing
-compilation-state of say 20 scripts (e.g. 20 plugins) can be a daunting task. With Zplugin's
+compilation-state of say 20 scripts (e.g. 20 plugins) can be a daunting task. With Zinit's
 customized `source`, compilation will be guaranteed and automatic.
 
 I'm looking for interesting ideas for some new Zshell builtins or for customizations of
-existing builtins. If you have one, open an [issue][zplg-issue] for Zplugin. Thanks!
+existing builtins. If you have one, open an [issue][zplg-issue] for Zinit. Thanks!
 
-[zplugin]: https://github.com/zdharma/zplugin
-[zplg-issue]: https://github.com/zdharma/zplugin/issues
+[zinit]: https://github.com/zdharma/zinit
+[zplg-issue]: https://github.com/zdharma/zinit/issues

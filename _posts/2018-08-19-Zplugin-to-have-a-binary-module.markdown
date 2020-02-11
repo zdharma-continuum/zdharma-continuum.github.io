@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Zplugin to have a binary module"
+title:  "Zinit to have a binary module"
 date:   2018-08-19 16:45 +0100
 type: post
 categories: blog
-tags: zplugin
+tags: zinit
 ---
 
 As most of Zsh users know, there exist binary Zsh modules, like for example `zsh/datetime`.
@@ -13,7 +13,7 @@ variable `$EPOCHSECONDS` holding unix time-stamp.<!-- more --> Not everybody kno
 C goodies can come from outside of Zsh installation. Such module is compiled standalone
 using Zshell C headers and if everything goes right, can be loaded into Zsh just like that.
 
-I've decided to equip Zplugin with own, custom Zsh binary module. As probably all Zsh modules
+I've decided to equip Zinit with own, custom Zsh binary module. As probably all Zsh modules
 out there, it will be written in C. The development started on August 16, 2018, after receiving
 a dedicated donation from an user.
 
@@ -23,9 +23,9 @@ sources done in current Zsh session, with duration (in milliseconds) that each s
 such feature? Pretty all Zsh plugin managers use `source` to load plugins. I only saw that
 Antigen might be using `eval $(<plugin.zsh)` trick, but then verified and it seems not to use it
 (earlier I saw some commit messages of Antigen, mentioning the trick). This means that with
-Zplugin Zsh module it will be possible to *profile* plugin loading times yielded by any plugin
+Zinit Zsh module it will be possible to *profile* plugin loading times yielded by any plugin
 manager out there. That's why I plan to provide an installation script that will allow to use
-Zplugin Zsh module standalone, without installing/using Zplugin itself.
+Zinit Zsh module standalone, without installing/using Zinit itself.
 
 Time-profiling of `source` is one of the features of the module. There are others, but I have
 to get back to coding, so I describe them on another occasion.
