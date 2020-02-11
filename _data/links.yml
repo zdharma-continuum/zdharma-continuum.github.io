@@ -1,24 +1,21 @@
 - url: "https://twitter.com/ZdharmaI"
   title: "Twitter"
 
-- url: "Zinit"
-  title: "https://github.com/zdharma/zinit"
+- title: "Zinit"
+  url: "https://github.com/zdharma/zinit"
 
-- url: "Fast Syntax Highlighting"
-  title: "https://github.com/zdharma/fast-syntax-highlighting"
+- title: "Fast Syntax Highlighting"
+  url: "https://github.com/zdharma/fast-syntax-highlighting"
 
-- url: "Plugin Standard"
-  title: "http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html"
+- title: "Plugin Standard"
+  url: "http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html"
 
-- url: "Zinit Wiki"
-  title: "http://zdharma.org/zinit/wiki/"
+- title: "Zinit Wiki"
+  url: "http://zdharma.org/zinit/wiki/"
 
-- url: "Zinit Reddit"
-  title: "http://reddit.com/r/zinit/"
+- title: "Zinit Reddit"
+  url: "http://reddit.com/r/zinit/"
 
-- url: "Scripting Handbook"
-  title: "http://zdharma.org/Zsh-100-Commits-Club/Zsh-Native-Scripting-Handbook.html"
-
-- url: ""
-  title: ""
+- title: "Scripting Handbook"
+  url: "http://zdharma.org/Zsh-100-Commits-Club/Zsh-Native-Scripting-Handbook.html"
 
