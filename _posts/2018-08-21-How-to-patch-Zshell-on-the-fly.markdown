@@ -55,5 +55,5 @@ customized `source`, compilation will be guaranteed and automatic.
 I'm looking for interesting ideas for some new Zshell builtins or for customizations of
 existing builtins. If you have one, open an [issue][zplg-issue] for Zinit. Thanks!
 
-[zinit]: https://github.com/zdharma/zinit
-[zplg-issue]: https://github.com/zdharma/zinit/issues
+[zinit]: https://github.com/zdharma-continuum/zinit
+[zplg-issue]: https://github.com/zdharma-continuum/zinit/issues

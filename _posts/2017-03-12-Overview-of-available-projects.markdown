@@ -18,7 +18,7 @@ curses interface library. <!-- more --> One of the projects is a Zsh module, not
   send commands to other Zsh processes
 * [history-search-multi-word](https://github.com/zdharma/history-search-multi-word) –
   multi-term history searching for Zsh
-* [Zinit](https://github.com/zdharma/zinit) –
+* [Zinit](https://github.com/zdharma-continuum/zinit) –
   plugin manager with clean fpath and reports
 * [zgdbm](https://github.com/zdharma/zgdbm) –
   rewritten GDBM module, posted to upstream, further developed at Zdharma
