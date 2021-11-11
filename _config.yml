@@ -1,13 +1,12 @@
 # Site settings
-title:          Zdharma Initiative Blog
+title:          Zdharma Continuum Blog
 description:    "Zsh Projects"
 url:            "https://github.com/zdharma-continuum"
 
 # Author
 author:
-  name:         Sebastian Gniazdowski
-  url:          https://github.com/psprint
-  email:        sgniazdowski@gmail.com
+  name:         zdfharma-continuum
+  url:          https://github.com/zdharma-continuum
 
 # Build settings
 markdown:       kramdown
@@ -20,13 +19,13 @@ sass:
 baseurl: ''
 
 ## default date_format
-date_format: 
+date_format:
   title: "%B-%-d-%Y"
   archive: "%b"
   categories: "%b-%Y"
   tag: "%b-%Y"
 # Language
-lan: "en" 
+lan: "en"
 
 # Gems
 plugins:

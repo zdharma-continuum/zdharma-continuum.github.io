@@ -23,4 +23,4 @@ stage to happen ;)<!-- more -->. Who knows what else will get possible. Currentl
 Check out [demo](https://asciinema.org/a/107691) on text-fields and list-boxes. The timeout callback
 is basically a timer that calls your function every N milliseconds – a
 [configure/make wrapper](https://asciinema.org/a/107688) has been written that way. There are
-endless possibilities with [ZUI](https://github.com/zdharma/zui/wiki).
+endless possibilities with [ZUI](https://github.com/zdharma-continuum/zui/wiki).

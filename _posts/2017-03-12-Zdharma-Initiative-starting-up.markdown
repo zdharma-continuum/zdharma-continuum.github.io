@@ -36,5 +36,5 @@ zc-all cd $PWD
 
 Check out Zconvey's [home page][zconvey] and Asciinema video there.
 
-[hello-world]: https://github.com/zdharma/zui/blob/master/demos/zui-demo-hello-world
-[zconvey]: https://github.com/zdharma/zconvey
+[hello-world]: https://github.com/zdharma-continuum/zui/blob/master/demos/zui-demo-hello-world
+[zconvey]: https://github.com/zdharma-continuum/zconvey

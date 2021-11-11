@@ -19,4 +19,4 @@ shipped:
 1. Closing `]]` and `]` are highlighted
 1. Paths from `$CDPATH` aren't colorized unless the command is `cd`
 
-Check out full story at [Github project page](https://github.com/zdharma/fast-syntax-highlighting)
+Check out full story at [Github project page](https://github.com/zdharma-continuum/fast-syntax-highlighting)

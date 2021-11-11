@@ -33,7 +33,7 @@ It is snippet-based. An example plugin-based invocation:
 
 ```zsh
 zinit ice wait'2' lucid id-as'remark' node'remark <- !remark-cli; remark-man'
-zinit load zdharma/null
+zinit load zdharma-continuum/null
 ```
 
 It has an advantage – it will delete the `remark` function when unloading the

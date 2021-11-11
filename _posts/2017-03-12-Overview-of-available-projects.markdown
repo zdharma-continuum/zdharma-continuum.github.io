@@ -12,15 +12,15 @@ mainstream, rest of the projects might get an uplift to fit into Zdharma goals
 (robust and well working Zsh software) in the future, mainly by use of ZUI
 curses interface library. <!-- more --> One of the projects is a Zsh module, not a plugin:
 
-* [ZUI](https://github.com/zdharma/zui) –
+* [ZUI](https://github.com/zdharma-continuum/zui) –
   CGI+(D)HTML-like RAD user interface library (curses)
-* [Zconvey](https://github.com/zdharma/zconvey) –
+* [Zconvey](https://github.com/zdharma-continuum/zconvey) –
   send commands to other Zsh processes
-* [history-search-multi-word](https://github.com/zdharma/history-search-multi-word) –
+* [history-search-multi-word](https://github.com/zdharma-continuum/history-search-multi-word) –
   multi-term history searching for Zsh
 * [Zinit](https://github.com/zdharma-continuum/zinit) –
   plugin manager with clean fpath and reports
-* [zgdbm](https://github.com/zdharma/zgdbm) –
+* [zgdbm](https://github.com/zdharma-continuum/zgdbm) –
   rewritten GDBM module, posted to upstream, further developed at Zdharma
 
 Remaining good, but not yet revisited and uplifted plugins:

@@ -17,4 +17,4 @@ of a loop, a function, etc. Now just pressing `Ctrl-B` suffices, a `ZUI` applica
 – the `zbrowse`, and nicely list all user-defined (not from e.g. `zshrc`) parameters (i.e.
 variables). One can also show **all** shell parameters and search them incrementally.
 
-The project is located at [Github](https://github.com/zdharma/zbrowse)
+The project is located at [Github](https://github.com/zdharma-continuum/zbrowse)

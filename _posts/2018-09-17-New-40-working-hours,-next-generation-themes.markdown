@@ -8,7 +8,7 @@ tags: zinit
 ---
 
 It was September, 3rd when I've decided to do an utmost, **radically time-invested** theme for the
-plugin `zdharma/fast-syntax-highlighting` (for Zshell, see its Github page). I was finishing two
+plugin `zdharma-continuum/fast-syntax-highlighting` (for Zshell, see its Github page). I was finishing two
 `www.syntaxenvy.com`-based themes,
 `sv-plant` and `sv-orple` and I noticed how unsupported by anything are my decisions about assigning
 colors in given way. I then decided to **understand** the objects in command line and colorize them
