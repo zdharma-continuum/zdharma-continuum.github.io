@@ -42,7 +42,7 @@ GEM
     jekyll-feed (0.18.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-remote-theme (0.5.2)
+    jekyll-remote-theme (0.6.2)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
       jekyll-sass-converter (>= 1.0, < 4.0, != 2.0.0)
@@ -74,7 +74,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (4.7.0)
-    rubyzip (3.4.1)
+    rubyzip (3.7.0)
     safe_yaml (1.0.5)
     sass-embedded (1.105.1-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
@@ -89,7 +89,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-feed (~> 0.18.0)
   jekyll-paginate (~> 1.1)
-  jekyll-remote-theme (~> 0.5.2)
+  jekyll-remote-theme (~> 0.6.2)
   webrick (~> 1.9)
 
 BUNDLED WITH
